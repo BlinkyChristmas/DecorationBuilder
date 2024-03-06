@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		568235452B94E264002F0CE1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568235442B94E264002F0CE1 /* AppDelegate.swift */; };
-		568235472B94E264002F0CE1 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568235462B94E264002F0CE1 /* Document.swift */; };
-		5682354A2B94E264002F0CE1 /* Document.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568235482B94E264002F0CE1 /* Document.xib */; };
+		568235472B94E264002F0CE1 /* DecorationDoc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 568235462B94E264002F0CE1 /* DecorationDoc.swift */; };
+		5682354A2B94E264002F0CE1 /* DecorationDoc.xib in Resources */ = {isa = PBXBuildFile; fileRef = 568235482B94E264002F0CE1 /* DecorationDoc.xib */; };
 		5682354C2B94E265002F0CE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5682354B2B94E265002F0CE1 /* Assets.xcassets */; };
 		5682354F2B94E265002F0CE1 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5682354D2B94E265002F0CE1 /* MainMenu.xib */; };
+		5682355F2B98C082002F0CE1 /* Decoration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5682355E2B98C082002F0CE1 /* Decoration.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		568235412B94E264002F0CE1 /* DecorationBuilder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DecorationBuilder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		568235442B94E264002F0CE1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		568235462B94E264002F0CE1 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
-		568235492B94E264002F0CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/Document.xib; sourceTree = "<group>"; };
+		568235462B94E264002F0CE1 /* DecorationDoc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecorationDoc.swift; sourceTree = "<group>"; };
+		568235492B94E264002F0CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/DecorationDoc.xib; sourceTree = "<group>"; };
 		5682354B2B94E265002F0CE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5682354E2B94E265002F0CE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		568235502B94E265002F0CE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		568235512B94E265002F0CE1 /* DecorationBuilder.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DecorationBuilder.entitlements; sourceTree = "<group>"; };
+		5682355E2B98C082002F0CE1 /* Decoration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decoration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +57,10 @@
 		568235432B94E264002F0CE1 /* DecorationBuilder */ = {
 			isa = PBXGroup;
 			children = (
+				5682355E2B98C082002F0CE1 /* Decoration.swift */,
 				568235442B94E264002F0CE1 /* AppDelegate.swift */,
-				568235462B94E264002F0CE1 /* Document.swift */,
-				568235482B94E264002F0CE1 /* Document.xib */,
+				568235462B94E264002F0CE1 /* DecorationDoc.swift */,
+				568235482B94E264002F0CE1 /* DecorationDoc.xib */,
 				5682354B2B94E265002F0CE1 /* Assets.xcassets */,
 				5682354D2B94E265002F0CE1 /* MainMenu.xib */,
 				568235502B94E265002F0CE1 /* Info.plist */,
@@ -95,6 +98,7 @@
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
+				ORGANIZATIONNAME = "Charles Kerr";
 				TargetAttributes = {
 					568235402B94E264002F0CE1 = {
 						CreatedOnToolsVersion = 15.2;
@@ -125,7 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5682354C2B94E265002F0CE1 /* Assets.xcassets in Resources */,
-				5682354A2B94E264002F0CE1 /* Document.xib in Resources */,
+				5682354A2B94E264002F0CE1 /* DecorationDoc.xib in Resources */,
 				5682354F2B94E265002F0CE1 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				568235472B94E264002F0CE1 /* Document.swift in Sources */,
+				5682355F2B98C082002F0CE1 /* Decoration.swift in Sources */,
+				568235472B94E264002F0CE1 /* DecorationDoc.swift in Sources */,
 				568235452B94E264002F0CE1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -145,12 +150,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		568235482B94E264002F0CE1 /* Document.xib */ = {
+		568235482B94E264002F0CE1 /* DecorationDoc.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
 				568235492B94E264002F0CE1 /* Base */,
 			);
-			name = Document.xib;
+			name = DecorationDoc.xib;
 			sourceTree = "<group>";
 		};
 		5682354D2B94E265002F0CE1 /* MainMenu.xib */ = {

@@ -7,7 +7,7 @@
 
 import Cocoa
 
-class Document: NSDocument {
+class DecorationDoc: NSDocument {
 
     override init() {
         super.init()
@@ -21,7 +21,7 @@ class Document: NSDocument {
     override var windowNibName: NSNib.Name? {
         // Returns the nib file name of the document
         // If you need to use a subclass of NSWindowController or if your document supports multiple NSWindowControllers, you should remove this property and override -makeWindowControllers instead.
-        return NSNib.Name("Document")
+        return NSNib.Name("DecorationDoc")
     }
 
     override func data(ofType typeName: String) throws -> Data {
